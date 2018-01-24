@@ -1,0 +1,287 @@
+/*
+
+*/
+@import "bootstrap.min.css";
+@import "bootstrap.rtl.css";
+
+@font-face
+{
+	font-family:iransans;
+	src:url(../fonts/IRANSansWeb.eot);
+	src:url(../fonts/IRANSansWeb.eot?#iefix) format("embedded-opentype"),url(../fonts/IRANSansWeb.woff) format("woff"),url(../fonts/IRANSansWeb.ttf) format("truetype");
+	font-weight:400
+}
+
+@font-face
+{
+	font-family:iransans-bold;
+	src:url(../fonts/IRANSansWeb_Bold.eot);
+	src:url(../fonts/IRANSansWeb_Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/IRANSansWeb_Bold.woff) format("woff"),url(../fonts/IRANSansWeb_Bold.ttf) format("truetype");
+	font-weight:400
+}
+
+@font-face
+{
+	font-family:iransans-light;
+	src:url(../fonts/IRANSansWeb_Light.eot);
+	src:url(../fonts/IRANSansWeb_Light.eot?#iefix) format("embedded-opentype"),url(../fonts/IRANSansWeb_Light.woff) format("woff"),url(../fonts/IRANSansWeb_Light.ttf) format("truetype");
+	font-weight:400
+}
+
+@font-face
+{
+	font-family:iransans-medium;
+	src:url(../fonts/IRANSansWeb_Medium.eot);
+	src:url(../fonts/IRANSansWeb_Medium.eot?#iefix) format("embedded-opentype"),url(../fonts/IRANSansWeb_Medium.woff) format("woff"),url(../fonts/IRANSansWeb_Medium.ttf) format("truetype");
+	font-weight:400
+}
+
+* {
+  padding: 0;
+  margin: 0
+}
+
+p {
+  padding: 0;
+  margin: 0
+}
+
+body
+{
+  margin-top: 50px;
+  font-family: iransans;
+  background-color: #ebebeb;
+}
+
+.seyyedalihosseini-navbar {
+    background-color: #ebebeb;
+    box-shadow: 2px 2px 2px #bfbfbf;
+}
+
+.seyyedalihosseini-navbar a {
+    color: #7c7c7c;
+}
+
+.about
+{
+  margin: 50px auto 50px auto;
+  text-align: center;
+  color: #7a7a7a;
+  line-height: 30px;
+}
+
+.about .image
+{
+
+}
+
+.about .image img
+{
+  width: 250px;
+  height: auto;
+  border-radius: 100%;
+  box-shadow: 0 4px 10px #c5c5c5;
+  border: 1px solid #cbcbcb;
+}
+
+.about .image img:hover
+{
+  box-shadow: 0 5px 11px #8d8d8d;
+  transition: 0.5s
+}
+
+.about .name
+{
+  font-size: 30px;
+  margin: 10px
+
+}
+.about .jobtitle
+{
+font-size: 20px;
+margin: 10px
+}
+
+.about .delimiter
+{
+  width: 40%;
+height: 10px;
+background-color: #acd373;
+margin: 20px auto 20px auto;
+border-radius: 5px;
+}
+
+.about .content
+{
+  font-size: 15px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.information
+{
+  background-color: #252525;
+  padding: 30px 0 30px 0;
+  color: #ccc;
+}
+
+.information #skills
+{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px
+}
+
+.information .skills
+{
+
+}
+
+.information .skills .field
+{
+  font-size: 20px;
+  color: #b1b1b1;
+  margin-top: 40px
+}
+
+.information .skills .field .pipe
+{
+  background-color: #acd373;
+  width: 20px;
+  height: 50px;
+  margin: 0 0 0 5px
+}
+
+.information .skills .skill
+{
+  margin: 30px 0 0px 0
+}
+
+.information .skills .title
+{
+  float: left;
+  text-align: left;
+  font-size: 15px;
+
+}
+
+.information .skills .level
+{
+
+}
+
+.information .skills .level .percent
+{
+  background-color: #acd373;
+  float: left;
+  border-radius: 5px;
+}
+
+.information .skills .level .percent:hover
+{
+  background-color: #a9bf89
+}
+
+.information .skills .level .percent .circle
+{
+  padding: 11px 3px;
+  border-radius: 100%;
+  background-color: #acd373;
+  color: #252525;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -8px;
+  margin:  0 -7px  0 0
+}
+
+
+.information .contact
+{
+
+}
+
+.information .contact .input-group
+{
+  width: 100%;
+}
+
+.information .contact .submit {
+    margin: 30px;
+    text-align: center;
+}
+
+.information .contact .the_title
+{
+  font-size: 20px;
+  color: #b1b1b1;
+  margin-top: 40px
+}
+
+.information .contact .the_title .pipe
+{
+  background-color: #acd373;
+  width: 20px;
+  height: 50px;
+  margin: 0 0 0 5px
+}
+
+.btn-submit {
+    color: #333;
+    background-color: #acd373;
+    border-color: #62714d;
+}
+
+.btn-submit:hover
+{
+  background-color: #a9bf89
+}
+
+.modal-body
+{
+  color: #111;
+}
+
+.modal-footer {
+  padding: 5px
+}
+
+.information .latestposts
+{
+
+}
+
+.information .latestposts .the_title
+{
+  font-size: 20px;
+  color: #b1b1b1;
+  margin-top: 40px
+}
+
+.information .latestposts .the_title .pipe
+{
+  background-color: #acd373;
+  width: 20px;
+  height: 50px;
+  margin: 0 0 0 5px
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #363636;
+    padding: 10px;
+    color: #ababab
+}
+
+.footer .copyright
+{
+  text-align: center;
+}
+
+.footer .copyright a {
+  color: #fff
+}
